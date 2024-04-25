@@ -4,7 +4,7 @@ import pkg from "pg";
 dotenv.config();
 
 dotenv.config();
-const host = process.env.DB_HOST || "localhost";
+const host = process.env.DB_HOST || "192.168.221.129";
 const user = process.env.DB_USER || "postgres";
 const database = process.env.DB_DATABASE || "libros";
 const password = process.env.DB_PASSWORD || "123";
